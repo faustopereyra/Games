@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FlappyBirdy;
+  src: url("img/FlappyBirdy.ttf") format("truetype");  
+}
+body {
+    background: #111;
+    color: #f8f8f8;
+  }
+  canvas {
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+button{
+  font-family: FlappyBirdy;
+  color: #fff;
+  background-color: rgb(232, 97, 1);
+  padding: 5px 25px;
+  border: #fff 3px solid;
+  font-size: 20px;
+  transform: translate(-50%,-50%);
+}
